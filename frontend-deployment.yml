@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: frontend_deployment
+  name: frontend-deployment
   namespace: argocd
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: frontend_deployment
+      app: frontend-deployment
   template:
     metadata:
       labels:
-        app: frontend_deployment
+        app: frontend-deployment
     spec:
       containers:
-        - name: frontend_deployment
+        - name: frontend-deployment
           image: wededo4644/assignment_frontend:28
           imagePullPolicy: Always
           ports:
