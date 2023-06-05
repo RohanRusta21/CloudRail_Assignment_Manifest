@@ -4,7 +4,7 @@ metadata:
   name: backend_service
   namespace: argocd
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
     app: backend_deployment
   ports:
