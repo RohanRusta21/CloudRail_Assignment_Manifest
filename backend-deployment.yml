@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: backend_deployment
+  name: backend-deployment
   namespace: argocd
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: backend_deployment
+      app: backend-deployment
   template:
     metadata:
       labels:
-        app: backend_deployment
+        app: backend-deployment
     spec:
       containers:
-        - name: backend_deployment
+        - name: backend-deployment
           image: wededo4644/assignment_backend:28
           imagePullPolicy: Always
           ports:
