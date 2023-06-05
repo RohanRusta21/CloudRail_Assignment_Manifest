@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: frontend-deployment
-          image: wededo4644/assignment_frontend:40
+          image: wededo4644/assignment_frontend:41
           imagePullPolicy: Always
           ports:
             - containerPort: 4200
