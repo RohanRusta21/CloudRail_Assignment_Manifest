@@ -2,5 +2,6 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: backend-config
+  namespace: argocd
 data:
   MONGO_URI: "mongodb+srv://rohanrustagi21:2V0WpUvfuXMYn2yp@cluster0.7wtlhlq.mongodb.net/?retryWrites=true&w=majority"
