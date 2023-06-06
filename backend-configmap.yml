@@ -3,4 +3,4 @@ kind: ConfigMap
 metadata:
   name: backend-config
 data:
-  MONGO_URI: ""
+  MONGO_URI: "mongodb+srv://rohanrustagi21:2V0WpUvfuXMYn2yp@cluster0.7wtlhlq.mongodb.net/?retryWrites=true&w=majority"
