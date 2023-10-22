@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: backend-deployment
-          image: wededo4644/assignment_backend:124
+          image: wededo4644/assignment_backend:125
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
